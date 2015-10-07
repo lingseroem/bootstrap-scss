@@ -1,0 +1,11 @@
+//@import "_normalize";
+//Variablen für Bootstrag
+//Grid Anpassungen
+$icon-font-path: "../fonts/bootstrap/";
+
+$grid-columns:              12;
+@import "bootstrap";
+.content{
+		@include make-sm-column(6);
+		@include make-md-column(4);
+}
