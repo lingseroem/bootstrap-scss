@@ -1,0 +1,4 @@
+//Löschen eines Branches lokal
+git branch -D <branchName>
+//Löschen eines Branches remote
+git push origin --delete <branchName>
